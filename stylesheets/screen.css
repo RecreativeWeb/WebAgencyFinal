@@ -194,7 +194,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 90%;
   height: 140px;
   margin: 0 auto;
-  background-image: url("../images/bg1");
+  background-image: url("../images/bg1.jpg");
   background-size: cover;
   border: 1px solid black;
 }
@@ -252,6 +252,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 75, ../sass/_accueil.scss */
   .accueil .slider .slideshow {
     width: 200%;
+    height: 300px;
     top: 0;
     left: 0;
     position: absolute;
@@ -273,52 +274,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     	}
     }*/
   }
-  /* line 80, ../sass/_accueil.scss */
+  /* line 81, ../sass/_accueil.scss */
   .accueil .slider .slideshow li {
     display: inline-block;
   }
-  /* line 83, ../sass/_accueil.scss */
-  .accueil .slider .slideshow .slider1 {
-    width: 100%;
-    height: 280px;
-    background-image: url("../images/bg1.jpg");
-    vertical-align: baseline;
-    background-repeat: no-repeat;
-    background-size: auto;
-    transition: left 2s ease;
-  }
-}
-@media screen and (min-width: 772px) and (min-width: 772px) {
-  /* line 83, ../sass/_accueil.scss */
+  /* line 84, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 {
     width: 100%;
     height: 300px;
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: left 2s ease;
   }
-}
-@media screen and (min-width: 772px) {
-  /* line 95, ../sass/_accueil.scss */
+  /* line 91, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 .slogan {
     font-size: 1.8rem;
     line-height: 2rem;
     padding-left: 2.5%;
     padding-top: 2%;
   }
-  /* line 100, ../sass/_accueil.scss */
+  /* line 96, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 .slogan .bleu {
     color: #70abcf;
   }
-  /* line 103, ../sass/_accueil.scss */
+  /* line 99, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 .slogan .blanc {
     color: white;
   }
-  /* line 107, ../sass/_accueil.scss */
+  /* line 103, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 .sousSlogan {
     font-size: 1.2rem;
     color: white;
     padding-left: 2.5%;
     padding-top: 1.5%;
   }
-  /* line 113, ../sass/_accueil.scss */
+  /* line 109, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 .boutonInfo {
     background-color: #70abcf;
     color: white;
@@ -329,7 +320,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-top: 1.4%;
   }
 }
-/* line 145, ../sass/_accueil.scss */
+/* line 141, ../sass/_accueil.scss */
 .accueil .fleches {
   position: absolute;
   display: flex;
@@ -339,7 +330,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 45px;
   top: 40%;
 }
-/* line 153, ../sass/_accueil.scss */
+/* line 149, ../sass/_accueil.scss */
 .accueil .fleches .flecheGauche {
   display: block;
   background-color: silver;
@@ -353,11 +344,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 4px;
   text-decoration: none;
 }
-/* line 160, ../sass/_accueil.scss */
+/* line 156, ../sass/_accueil.scss */
 .accueil .fleches .flecheGauche:hover {
   background-color: #70abcf;
 }
-/* line 163, ../sass/_accueil.scss */
+/* line 159, ../sass/_accueil.scss */
 .accueil .fleches .flecheDroite {
   display: block;
   background-color: silver;
@@ -371,7 +362,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 5px;
   text-decoration: none;
 }
-/* line 170, ../sass/_accueil.scss */
+/* line 166, ../sass/_accueil.scss */
 .accueil .fleches .flecheDroite:hover {
   background-color: #70abcf;
 }
@@ -633,47 +624,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-size: 1.2rem;
   }
 }
+@media screen and (min-width: 772px) {
+  /* line 1, ../sass/_services.scss */
+  .services {
+    padding-top: 110px;
+  }
+}
 
 /* SECTION 3 : PROJETS */
 /* line 3, ../sass/_projets.scss */
 .portfolio {
   background-color: whitesmoke;
 }
-/* line 7, ../sass/_projets.scss */
+/* line 6, ../sass/_projets.scss */
 .portfolio .titrePortfolio h1 {
   text-align: center;
 }
 @media screen and (min-width: 200px) {
-  /* line 7, ../sass/_projets.scss */
+  /* line 6, ../sass/_projets.scss */
   .portfolio .titrePortfolio h1 {
     font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 350px) {
-  /* line 7, ../sass/_projets.scss */
+  /* line 6, ../sass/_projets.scss */
   .portfolio .titrePortfolio h1 {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 550px) {
-  /* line 7, ../sass/_projets.scss */
+  /* line 6, ../sass/_projets.scss */
   .portfolio .titrePortfolio h1 {
     font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 772px) {
-  /* line 7, ../sass/_projets.scss */
+  /* line 6, ../sass/_projets.scss */
   .portfolio .titrePortfolio h1 {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 900px) {
-  /* line 7, ../sass/_projets.scss */
+  /* line 6, ../sass/_projets.scss */
   .portfolio .titrePortfolio h1 {
     font-size: 1.4rem;
   }
 }
-/* line 10, ../sass/_projets.scss */
+/* line 9, ../sass/_projets.scss */
 .portfolio .titrePortfolio .trait {
   margin: 0 auto;
   background-color: silver;
@@ -684,30 +681,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 350px) {
-  /* line 10, ../sass/_projets.scss */
+  /* line 9, ../sass/_projets.scss */
   .portfolio .titrePortfolio .trait {
     width: 20%;
   }
 }
 @media screen and (min-width: 550px) {
-  /* line 10, ../sass/_projets.scss */
+  /* line 9, ../sass/_projets.scss */
   .portfolio .titrePortfolio .trait {
     width: 22%;
   }
 }
 @media screen and (min-width: 772px) {
-  /* line 10, ../sass/_projets.scss */
+  /* line 9, ../sass/_projets.scss */
   .portfolio .titrePortfolio .trait {
     width: 18%;
   }
 }
 @media screen and (min-width: 999px) {
-  /* line 10, ../sass/_projets.scss */
+  /* line 9, ../sass/_projets.scss */
   .portfolio .titrePortfolio .trait {
     width: 15%;
   }
 }
-/* line 13, ../sass/_projets.scss */
+/* line 12, ../sass/_projets.scss */
 .portfolio .titrePortfolio .rond {
   background-color: #70abcf;
   -moz-border-radius: 25px;
@@ -720,78 +717,78 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 45%;
   margin-top: -6px;
 }
-/* line 16, ../sass/_projets.scss */
+/* line 15, ../sass/_projets.scss */
 .portfolio .titrePortfolio h2 {
   text-align: center;
 }
 @media screen and (min-width: 200px) {
-  /* line 16, ../sass/_projets.scss */
+  /* line 15, ../sass/_projets.scss */
   .portfolio .titrePortfolio h2 {
     font-size: 1rem;
   }
 }
 @media screen and (min-width: 350px) {
-  /* line 16, ../sass/_projets.scss */
+  /* line 15, ../sass/_projets.scss */
   .portfolio .titrePortfolio h2 {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 550px) {
-  /* line 16, ../sass/_projets.scss */
+  /* line 15, ../sass/_projets.scss */
   .portfolio .titrePortfolio h2 {
     font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 772px) {
-  /* line 16, ../sass/_projets.scss */
+  /* line 15, ../sass/_projets.scss */
   .portfolio .titrePortfolio h2 {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 900px) {
-  /* line 16, ../sass/_projets.scss */
+  /* line 15, ../sass/_projets.scss */
   .portfolio .titrePortfolio h2 {
     font-size: 1.4rem;
   }
 }
-/* line 20, ../sass/_projets.scss */
+/* line 19, ../sass/_projets.scss */
 .portfolio .menuPortfolio {
   display: flex;
   justify-content: center;
 }
 @media screen and (max-width: 8000px) {
-  /* line 20, ../sass/_projets.scss */
+  /* line 19, ../sass/_projets.scss */
   .portfolio .menuPortfolio {
     margin-top: 40px;
     margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 699px) {
-  /* line 20, ../sass/_projets.scss */
+  /* line 19, ../sass/_projets.scss */
   .portfolio .menuPortfolio {
     margin-bottom: 30px;
     margin-top: 30px;
   }
 }
-/* line 34, ../sass/_projets.scss */
+/* line 33, ../sass/_projets.scss */
 .portfolio .menuPortfolio li {
   list-style: none;
   position: relative;
   display: block;
 }
-/* line 38, ../sass/_projets.scss */
+/* line 37, ../sass/_projets.scss */
 .portfolio .menuPortfolio li .firstChild {
   -moz-border-radius: 5px 0 0 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px 0 0 5px;
 }
-/* line 41, ../sass/_projets.scss */
+/* line 40, ../sass/_projets.scss */
 .portfolio .menuPortfolio li .lastChild {
   -moz-border-radius: 0 5px 5px 0;
   -webkit-border-radius: 0;
   border-radius: 0 5px 5px 0;
 }
-/* line 44, ../sass/_projets.scss */
+/* line 43, ../sass/_projets.scss */
 .portfolio .menuPortfolio li a {
   display: block;
   background-color: #e3e3e3;
@@ -800,7 +797,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
 }
 @media screen and (max-width: 8000px) {
-  /* line 44, ../sass/_projets.scss */
+  /* line 43, ../sass/_projets.scss */
   .portfolio .menuPortfolio li a {
     width: 90px;
     height: 30px;
@@ -809,12 +806,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 699px) {
-  /* line 44, ../sass/_projets.scss */
+  /* line 43, ../sass/_projets.scss */
   .portfolio .menuPortfolio li a {
     font-size: 14px;
   }
 }
-/* line 63, ../sass/_projets.scss */
+/* line 62, ../sass/_projets.scss */
 .portfolio .menuPortfolio li:hover {
   background-color: #70abcf;
   color: white;
@@ -822,13 +819,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: -3px;
 }
 @media screen and (max-width: 999px) {
-  /* line 63, ../sass/_projets.scss */
+  /* line 62, ../sass/_projets.scss */
   .portfolio .menuPortfolio li:hover {
     border-bottom: 2px solid #558caa;
     margin-bottom: -2px;
   }
 }
-/* line 72, ../sass/_projets.scss */
+/* line 71, ../sass/_projets.scss */
 .portfolio .menuPortfolio li:hover span {
   display: block;
   width: 0;
@@ -840,7 +837,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-top: 8px solid #558caa;
 }
 @media screen and (max-width: 999px) {
-  /* line 72, ../sass/_projets.scss */
+  /* line 71, ../sass/_projets.scss */
   .portfolio .menuPortfolio li:hover span {
     margin-left: 18px;
     border-left: 5px solid transparent;
@@ -848,19 +845,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-top: 5px solid #558caa;
   }
 }
-/* line 91, ../sass/_projets.scss */
+/* line 90, ../sass/_projets.scss */
 .portfolio .cover {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-/* line 95, ../sass/_projets.scss */
+/* line 94, ../sass/_projets.scss */
 .portfolio .cover li {
   list-style: none;
   overflow: hidden;
 }
 @media screen and (max-width: 8000px) {
-  /* line 95, ../sass/_projets.scss */
+  /* line 94, ../sass/_projets.scss */
   .portfolio .cover li {
     width: 300px;
     height: 199px;
@@ -869,7 +866,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 999px) {
-  /* line 95, ../sass/_projets.scss */
+  /* line 94, ../sass/_projets.scss */
   .portfolio .cover li {
     width: 300px;
     height: 199px;
@@ -878,7 +875,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 699px) {
-  /* line 95, ../sass/_projets.scss */
+  /* line 94, ../sass/_projets.scss */
   .portfolio .cover li {
     width: 300px;
     height: 199px;
@@ -886,7 +883,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 8000px) {
-  /* line 115, ../sass/_projets.scss */
+  /* line 114, ../sass/_projets.scss */
   .portfolio .cover li .creative {
     width: 300px;
     height: 199px;
@@ -894,7 +891,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 999px) {
-  /* line 115, ../sass/_projets.scss */
+  /* line 114, ../sass/_projets.scss */
   .portfolio .cover li .creative {
     width: 300px;
     height: 199px;
@@ -902,14 +899,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 699px) {
-  /* line 115, ../sass/_projets.scss */
+  /* line 114, ../sass/_projets.scss */
   .portfolio .cover li .creative {
     width: 300px;
     height: 199px;
     background-size: 300px 199px;
   }
 }
-/* line 132, ../sass/_projets.scss */
+/* line 131, ../sass/_projets.scss */
 .portfolio .cover li p {
   height: 100px;
   padding: 20px;
@@ -919,20 +916,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition: margin-top 0.5s ease;
 }
 @media screen and (max-width: 349px) {
-  /* line 132, ../sass/_projets.scss */
+  /* line 131, ../sass/_projets.scss */
   .portfolio .cover li p {
     height: 10px;
     font-size: 6px;
   }
 }
-/* line 146, ../sass/_projets.scss */
+/* line 145, ../sass/_projets.scss */
 .portfolio .cover:hover p {
   margin-top: -100px;
   color: white;
   font-size: 14px;
   position: relative;
 }
-/* line 151, ../sass/_projets.scss */
+/* line 150, ../sass/_projets.scss */
 .portfolio .cover:hover p span.grosRond {
   display: block;
   position: absolute;
@@ -949,10 +946,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 260px;
   text-align: center;
 }
-/* line 164, ../sass/_projets.scss */
+/* line 163, ../sass/_projets.scss */
 .portfolio .cover:hover p span.grosRond .fa {
   font-size: 20px;
   line-height: 25px;
+}
+@media screen and (min-width: 772px) {
+  /* line 3, ../sass/_projets.scss */
+  .portfolio {
+    padding-top: 110px;
+  }
 }
 
 /* line 1, ../sass/_footer.scss */
@@ -1156,6 +1159,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 54, ../sass/_footer.scss */
   .contact .infosSmall {
     display: none;
+  }
+}
+@media screen and (min-width: 772px) {
+  /* line 1, ../sass/_footer.scss */
+  .contact {
+    padding-top: 110px;
   }
 }
 
