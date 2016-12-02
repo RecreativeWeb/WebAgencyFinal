@@ -251,28 +251,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   /* line 75, ../sass/_accueil.scss */
   .accueil .slider .slideshow {
-    width: 200%;
-    height: 300px;
+    width: 100%;
+    height: 380px;
     top: 0;
     left: 0;
     position: absolute;
-    /*&:target{
-    	left: -100%;
-    	margin-top: 120px;
-    }*/
-    /*.slider2{
-    	width: 100%;
-    	height: 280px;
-    	background-image: url('../images/bg2.jpg');
-    	background-size: 100% 280px;
-    	transition: left 1s ease;
-    }*/
-    /*&:target{
-    	left: 100%;
-    	.slider{
-    		margin-top: 120px;
-    	}
-    }*/
   }
   /* line 81, ../sass/_accueil.scss */
   .accueil .slider .slideshow li {
@@ -281,7 +264,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 84, ../sass/_accueil.scss */
   .accueil .slider .slideshow .slider1 {
     width: 100%;
-    height: 300px;
+    height: 380px;
     background-image: url("../images/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,6 +301,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-weight: 200;
     margin-left: 2.5%;
     margin-top: 1.4%;
+  }
+  /* line 117, ../sass/_accueil.scss */
+  .accueil .slider .slideshow:target {
+    left: -100%;
+    margin-top: 120px;
+  }
+  /* line 121, ../sass/_accueil.scss */
+  .accueil .slider .slideshow .slider2 {
+    width: 100%;
+    height: 380px;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    transition: left 1s ease;
+  }
+  /* line 128, ../sass/_accueil.scss */
+  .accueil .slider .slideshow:target {
+    left: 100%;
+  }
+  /* line 130, ../sass/_accueil.scss */
+  .accueil .slider .slideshow:target .slider {
+    margin-top: 120px;
   }
 }
 /* line 141, ../sass/_accueil.scss */
