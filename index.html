@@ -23,5 +23,340 @@
 </head>
 <body>
 
+<!-- HEADER FIXED EN TOP: LOGO ET MENU -->
+	<div class="fixed">
+		<header>	
+			<div class="logo">
+				<img src="images/logo.png" class="imgLogo" alt="logo de l'agence" />	
+			</div>
+			<nav>
+				<ul class="liens">
+					<li><a href="#accueil">Accueil</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+<!-- CONTAINER PRINCIPAL -->
+	<div class="container">	
+
+
+<!-- SECTION 1 : ECRAN D'ACCUEIL -->
+
+
+	<!-- POUR LES ECRANS SMARTPHONE ET TABLETTE -->
+		<section class="accueil" id="accueil">
+
+			<div class="display">
+				<div class="imgSlide"></div>
+				<h1 class="slogan"><span class="bleu noir">WEB AGENCY</span><span class="blanc noir"> : L'AGENCE DE TOUS VOS PROJETS !</span></h1>
+				<h2 class="sousSlogan">Vous avez un projet web ?<br /> La webAgency vous aide à le réaliser !</h2>
+				<input type="button" href="#contact" value="Plus d'infos" class="boutonInfo" />
+			</div>
+
+
+	<!-- POUR LES ECRANS DESKTOP -->
+			<div class="slider">
+				<ul class="slideshow">
+					<li id="slider1" class="slider1">
+						<div class="intro">
+							<h1 class="slogan"><span class="bleu noir">WEBAGENCY</span><span class="blanc noir"> : L'AGENCE DE TOUS<br/> VOS PROJETS !</span></h1>
+							<h2 class="sousSlogan">Vous avez un projet web ? La webAgency vous aide à le réaliser !</h2>
+							<input type="button" value="Plus d'infos" class="boutonInfo" />
+						</div>
+					</li>
+					<li id="slider2" class="slider2"></li>
+				</ul>
+				<div class="fleches">
+					<a href="#" class="flecheGauche"><</a>
+					<a href="#" class="flecheDroite">></a>
+				</div>
+			</div>
+			
+		</section>
+
+
+
+
+<!-- SECTION 2 : SERVICES -->
+
+		<section class="services" id="services">
+
+			<div class="titreSection">
+				<h1>NOS SERVICES</h1>
+				<div class="trait">
+					<div class ="rond"></div>
+				</div>
+				<h2>Web Agency regroupe tous les corps de métier,<br />
+				 pour vous offrir des prestations complêtes de communication</h2>
+			</div>
+
+			 <div class="positionServices">
+
+			 	<div class="image">
+			 		<!--<img class="image" align="ecran pc" src="images/main-feature.png" />-->
+			 	</div>
+
+				<ul class="listeMetiers">
+
+					<li>
+						<div class="puces">
+							<i class="fa fa-line-chart" aria-hidden="true"><span></span></i>
+						</div>
+						<div class="definition">
+							<h1>UX design (User eXperience) ou expérience utilisateur.</h1>
+							<p class="fadeIn">
+								Penser, réfléchir et concevoir une conception visuel pour créer un design qui provoquera la bonne experience utilisateur. L'expérience utilisateur c'est la prise en considération globale des besoins de l’utilisateur, une conception centrée sur ce dernier.
+							</p>
+						</div>
+					</li>
+					
+					<li>
+						<div class="puces">
+							<i class="fa fa-cubes" aria-hidden="true"><span></span></i>
+						</div>
+						<div class="definition">
+						<h1>UI design (User Interface) ou interface utilisateur.</h1>
+						<p>
+							L'interface utilisateur est le lieu de rencontre entre l'humain et un produit (ou machine),
+							elle détermine la manière dont on intéragit avec le produit. Une interface utilisateur efficace doit être compréhensible, et doit permettre une utilisation facile et simple du produit (pour le cas d'un site web, de naviguer aisément par exemple).L'UI c'est l’organisation des éléments graphiques et textuels.
+						</p>
+						</div>
+					</li>
+
+					<li>
+						<div class="puces">
+							<i class="fa fa-pie-chart" aria-hidden="true"><span></span></i>
+						</div>
+						<div class="definition">
+						<h1>SEO (Search Engine Optimization).</h1>
+						<p>
+							l’art de positionner un site, une page web ou une application dans les premiers résultats naturels des moteurs de recherche. Si possible, la position obtenue doit être en première page, car lors de la majeure partie des requêtes, c’est la seule page consultée. En français, le SEO est désigné par le terme de référencement naturel.
+						</p>
+						</div>
+					</li>
+					
+				</ul>
+
+			</div>
+		</section>
+
+
+
+
+
+
+<!-- SECTION 3 : PROJETS -->
+		<section class="portfolio" id="portfolio">
+			<div class="titrePortfolio">
+				<h1>NOS PROJETS</h1>
+				<div class="trait">
+					<div class ="rond">
+					</div>
+				</div>
+				<h2>Web Agency est spécialisée dans la communication d'entreprise...<br />
+				...pour que vos visiteurs deviennent vos partenaires et clients de demain.</h2>
+			</div>
+			<ul class="menuPortfolio">
+				<li><a href="#1" class="firstChild">All Works<span></span></a></li>
+				<li><a href="#2">Creative<span></span></a></li>
+				<li><a href="#3">Corporate<span></span></a></li>
+				<li><a href="#4" class="lastChild">Portfolio<span></span></a></li>
+			</ul>
+			
+			<ul class="cover">
+				<li>
+					<img class="creative" alt="cover vision futur" src="images/01.jpg" />
+					<p>Vision Futur<br />Entreprise spécialisée dans la conception et la production de verres de vue.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover lapin rose" src="images/02.jpg" />
+					<p>Au lapin rose<br />Société d'import export de lapins du Sud Ouest.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover original pompadour" src="images/03.jpg" />
+					<p>Original Pompadour<br />Entreprise mondiale de production de gel de cheveux.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover impress'passion" src="images/04.jpg" />
+					<p>Impress'passion<br />Société d'impression tous formats, toutes matières.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover shopping bag" src="images/05.jpg" />
+					<p>Shopping bag<br />Entreprise de production et de recyclage de sacs papiers.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover usine 3.0" src="images/06.jpg" />
+					<p>Usine 3.0<br />Projet de reflexion et de conception sur les usines du futur.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover arc'ueil" src="images/07.jpg" />
+					<p>Arc'ueil<br />Centre sportif de tir à l'arc de la ville d'Arcueil.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+				<li>
+					<img class="creative" alt="cover package" src="images/08.jpg" />
+					<p>Package<br />Société de production de package d'entreprise.
+						<span class="grosRond"><i class="fa fa-eye" aria-hidden="true"></i></span>
+					</p>
+				</li>
+			</ul>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SECTION 4 : CONTACT -->
+
+		<footer class="contact" id="contact">
+
+			<div class="titreContact">
+				<h1>CONTACTEZ-NOUS</h1>
+				<div class="trait">
+					<div class ="rond">
+					</div>
+				</div>
+				<h2>N'hésitez pas à prendre directement contact  avec nous,<br />
+				ou a remplir le questionnaire ci-dessous.</h2>
+			</div>
+
+
+
+			<div id="map">
+
+				
+				<div class="infos">
+					<h3>Contact</h3><br />
+					<p class="adresse"><strong>WebAgency SAS<br />
+					25 rue d'Hauteville 75010 Paris<br />
+					Tél : 01 02 03 04 05</strong></p><br /><br />
+					<form method="post">
+						<input type="text" name="nom" placeholder="Name">
+						<input type="email" name="mail" placeholder="Email">
+						<input type="text" name="sujet" placeholder="Subject">
+						<textarea>Message</textarea>
+						<input class="envoyer" type="submit" name="envoyer" value="Envoyer">
+					</form>
+				</div>	
+				
+
+			</div>
+
+
+			<div class="infosSmall">
+				<h1 class="adresse"><strong>WebAgency SAS</strong></h1>
+				<h2>25 rue d'Hauteville, 75010 Paris</h2>
+				<h3>Tél : 01 02 03 04 05</h3>
+					<form method="post">
+						<input type="text" name="nom" placeholder="Nom" width="80%">
+						<input type="email" name="mail" placeholder="Email">
+						<input type="text" name="sujet" placeholder="Sujet">
+						<textarea placeholder="Message"></textarea>
+						<input class="envoyer" type="submit" name="envoyer" value="Envoyer">
+					</form>
+			</div>	
+
+		</footer>
+
+
+	<!-- FIN DU CONTAINER -->
+	</div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+    var mapDiv;
+      
+      function initMap() {
+
+        var mapDiv = document.getElementById('map');
+
+        var latlng = new google.maps.LatLng(48.873163, 2.349824); 
+
+        var styles = 
+
+		[{"featureType":"all","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"geometry.stroke","stylers":[{"hue":"#00ffa1"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#01528a"}]},{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"hue":"#0068ff"}]},{"featureType":"administrative","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"color":"#01528a"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"administrative.country","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"all","stylers":[{"visibility":"on"},{"color":"#effbff"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-70}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#bbc9d7"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"on"},{"saturation":"70"},{"lightness":"40"},{"gamma":"1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#01528a"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"hue":"#0097ff"},{"saturation":"-53"},{"lightness":"-55"},{"gamma":"2.24"}]}]
+
+        var myOptions = {
+          zoom: 16,
+          center: latlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          styles: styles,
+          draggable: false
+        };
+
+        map = new google.maps.Map(mapDiv, myOptions);
+
+        var image = {
+              url: 'images/marqueur1.png',
+              size: new google.maps.Size(50, 50),
+              origin: new google.maps.Point(0,0),
+              anchor: new google.maps.Point(50, 100)
+          };
+
+         var marker = new google.maps.Marker({
+          position: latlng,
+          map: map,
+          title: 'Je suis ici !',
+          icon: image
+        });
+      
+      }
+
+    </script>
+
+    <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5zYn-fyOq10C1mXAt7XDQXIPVBZDz7Rs&callback=initMap">
+          //Mettez votre clé Google API ici à la place de "YOUR_API_KEY"
+    </script>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
